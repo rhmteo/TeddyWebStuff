@@ -35,7 +35,7 @@ jobs:
         uses: na1307/blazor-github-pages@v2
         id: prepare
         with:
-          project-path: TeddyWebStuff/TeddyWebStuff.csproj
+          project-path: TeddyWebStuff.csproj
           main-repo: true
       - name: Setup Pages
         uses: actions/configure-pages@v5
